@@ -22,9 +22,9 @@ site:
   git:
     base-url: https://github.com/michaelliao/gitsite/blob/main/source
   contact:
-    name: Michael Liao
-    github: https://github.com/michaelliao/gitsite
-    twitter: https://twitter.com/liaoxuefeng
+    name: MuYe (董梁)
+    github: https://github.com/RCliang/MuYe
+    twitter: https://www.zhihu.com/people/ricodong
   books:
     index-marker: true
   search:
