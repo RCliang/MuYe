@@ -1,1 +1,40 @@
 /* custom css */
+div.home-book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.home-book-list .home-book-list-item {
+    cursor: pointer;
+    display: block;
+    border: solid 1px rgb(209 213 219);
+    border-radius: 4px;
+    width: 192px;
+    overflow: hidden;
+    opacity: 0.9;
+    margin: 10px 20px 20px 0;
+}
+
+div.home-book-list .home-book-list-item:hover {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    opacity: 1;
+}
+
+:is(.dark div.home-book-list .home-book-list-item) {
+    border-color: rgb(75 85 99);
+}
+
+:is(.dark div.home-book-list .home-book-list-item:hover) {
+    box-shadow: 0 4px 6px -1px rgb(255 255 255 / 0.1), 0 2px 4px -2px rgb(255 255 255 / 0.1);
+}
+
+div.home-book-list div.home-book-list-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 4px 4px 4px;
+}
+
+div.home-book-list div.home-book-list-desc {
+    padding: 4px 4px 8px 4px;
+}

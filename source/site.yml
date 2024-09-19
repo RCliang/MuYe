@@ -8,17 +8,15 @@ site:
   # for GitHub pages deployment without a custom domain, it is often '/<projectName>'
   root-path: /MuYe
   # set cdn path:
-  cdn-path: https://cdn.jsdelivr.net/npm
+  cdn-path: /static
   navigation:
-    - title: User Guide
-      uri: /books/gitsite-guide/index.html
-    - title: Blogs
-      uri: /blogs/tech/index.html
-    - title: License
-      uri: /pages/license/index.html
-    - title: Discuss
-      uri: https://github.com/michaelliao/gitsite/discussions
-      external: true
+    - title: 博客
+      uri: /blogs/all/index.html
+    - title: 面经
+      uri: /books/interview/index.html
+    - title: 资料URL
+      uri: /pages/reference/index.html
+      # external: true
   git:
     base-url: https://github.com/michaelliao/gitsite/blob/main/source
   contact:
