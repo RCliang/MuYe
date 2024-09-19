@@ -7,9 +7,9 @@
 <div class="home-book-list">
     <!-- java -->
     <div class="home-book-list-item">
-        <a href="/MuYe/books/interview/MachineLearning/index.html" class="home-book-list-image">
+        <a href="/books/interview/MachineLearning/index.html" class="home-book-list-image">
             <div>
-                <img src="/MuYe/static/cover/MachineLearning.png" /> 
+                <img src="/static/cover/MachineLearning.png" /> 
             </div>
             <div class="home-book-list-title">
                 面筋
@@ -29,7 +29,7 @@
 
 <script>
     documentReady(async ()=>{
-        const resp = await fetch('/MuYe/blogs/all/index.json');
+        const resp = await fetch('/blogs/all/index.json');
         let blogs = await resp.json();
         if (blogs.length > 20) {
             blogs = blogs.slice(0, 20);
