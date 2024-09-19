@@ -8,7 +8,7 @@ site:
   # for GitHub pages deployment without a custom domain, it is often '/<projectName>'
   root-path: /MuYe
   # set cdn path:
-  cdn-path: /static
+  cdn-path: https://cdn.jsdelivr.net/npm
   navigation:
     - title: 博客
       uri: /blogs/all/index.html
