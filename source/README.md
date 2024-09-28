@@ -40,7 +40,7 @@
             return `
 <div class="home-blog-list-item">
     <div><span class="text-sm font-semibold uppercase">${date}</span></div>
-    <div><a href="${blog.uri}">${gitsite.encodeHtml(blog.title)}</a></div>
+    <div><a href="/MuYe${blog.uri}">${gitsite.encodeHtml(blog.title)}</a></div>
 </div>`;
         });
         document.getElementById('home-blog-list').innerHTML = items.join('');
